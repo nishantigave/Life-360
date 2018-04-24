@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="#b38fece3">
+
+        <LinearLayout
+            android:id="@+id/NameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/dname"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:text="Disaster Name"/>
+            <TextView
+                android:id="@+id/disastername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/dname"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/injname"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:text="Impact and Injuries :"/>
+                <TextView
+                    android:id="@+id/injuriesname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/injname"/>
+                <TextView
+                    android:id="@+id/injuriesname1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_marginTop="30dp"
+                    android:visibility="invisible"
+                    android:text="keshav"
+                    android:layout_toRightOf="@id/injuriesname"/>
+                <TextView
+                    android:id="@+id/injuriesname2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_marginTop="30dp"
+                    android:text="keshav"
+                    android:layout_toRightOf="@id/injuriesname1"/>
+                <TextView
+                    android:id="@+id/injuriesname3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:text="keshav"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/injuriesname2"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/Area"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:text="State and Area :"/>
+                <TextView
+                    android:id="@+id/Areaname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/Area"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/Yrname"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:text="Year :"/>
+                <TextView
+                    android:id="@+id/yearname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/Yrname"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/death"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:text="Death Toll :"/>
+                <TextView
+                    android:id="@+id/deathname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/death"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="30dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:text="Type :"/>
+                <TextView
+                    android:id="@+id/typename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_marginTop="30dp"
+                    android:layout_toRightOf="@id/type"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="google_maps_api_key"> AIzaSyAoCwhdnecw1uOI-H1IxkVyV-Torz5NS2Y </string>
+    <string name="app_name">Trial</string>
+    <array name="Type">
+        <item>Select one</item>
+        <item>Natural</item>
+        <item>Manmade</item>
+    </array>
+</resources>
